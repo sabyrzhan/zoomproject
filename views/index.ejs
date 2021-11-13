@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Zoom room</title>
+</head>
+<body>
+<h1>KaZoom</h1>
+<table align="center" cellpadding="20">
+    <tr>
+        <td>
+            <h2>Register</h2>
+            <form action="/register" method="post">
+                <div>Email: <input type="text" /></div>
+                <div>Password: <input type="password" /></div>
+                <div>
+                    <input type="submit" value="Register" />
+                </div>
+            </form>
+        </td>
+        <td>
+            <h2>Login</h2>
+            <form action="/login" method="post">
+                <div>Email: <input type="text" name="email" /></div>
+                <div>Password: <input type="password" name="password" /></div>
+                <div>
+                    <input type="submit" value="Login" />
+                </div>
+            </form>
+        </td>
+    </tr>
+</table>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+<script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+</body>
+</html>
